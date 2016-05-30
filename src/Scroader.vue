@@ -26,10 +26,6 @@
         type: Number,
         default: 0
       }, {
-        name: 'scroaderOffset', // space between header and the out offset zone
-        type: Number,
-        default: 200
-      }, {
         name: 'headerTransition',
         type: String,
         default: 'scroader'
@@ -37,7 +33,7 @@
     ],
     computed: {
       isHeaderInOffset () {
-        if (this.topOffset > (this.headerOffset + this.scroaderOffset)) {
+        if (this.topOffset > (this.headerOffset + this.headerOffset)) {
           // update isHeaderFixed
           this.isHeaderFixed = true
           return false
