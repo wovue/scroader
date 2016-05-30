@@ -1,0 +1,24 @@
+{
+  "name": "wovue-scroader",
+  "version": "0.0.1",
+  "description": "wovue scroader component",
+  "main": "./src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wovue/scroader.git"
+  },
+  "keywords": [
+    "wovue",
+    "vue",
+    "component"
+  ],
+  "author": "Gean Carlos <gean.marroquin@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wovue/scroader/issues"
+  },
+  "homepage": "https://github.com/wovue/scroader#readme",
+  "dependencies": {
+    "sass-bem-constructor": "^1.0.0"
+  }
+}
